@@ -100,7 +100,7 @@ export function Post({ itemsPost }: Props): React.ReactElement {
                     return (
                       <PopupImage
                         key={file.id}
-                        height={64}
+                        boxSize={'full'}
                         src={ASSET_URL(file.directus_files_id!.id!)}
                       />
                     )
