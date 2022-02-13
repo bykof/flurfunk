@@ -36,7 +36,7 @@ export default function Home() {
 
   return (
     <UsersContextProvider>
-      <Container maxW={'4xl'} pb={12}>
+      <Container maxW={'6xl'} pb={12}>
         <Box display={'flex'} py={4} justifyContent={'center'}>
           <Text fontSize={'4xl'}>Flurfunk</Text>
         </Box>

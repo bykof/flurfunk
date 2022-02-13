@@ -89,7 +89,7 @@ export function Post({ itemsPost }: Props): React.ReactElement {
             {imageFiles.length > 0 && (
               <SimpleGrid
                 columns={{ base: 1, sm: 2, md: 3 }}
-                spacing={8}
+                spacing={4}
                 my={4}
               >
                 {imageFiles.map((file) => {
@@ -100,8 +100,8 @@ export function Post({ itemsPost }: Props): React.ReactElement {
                     return (
                       <PopupImage
                         key={file.id}
+                        height={64}
                         src={ASSET_URL(file.directus_files_id!.id!)}
-                        boxSize={64}
                       />
                     )
                   }

@@ -12,7 +12,7 @@ import { ImageProps } from '@chakra-ui/image/dist/declarations/src/image'
 
 type Props = {} & ImageProps
 
-export function PopupImage({ src, alt, boxSize }: Props) {
+export function PopupImage({ src, alt, ...imageProps }: Props) {
   const { isOpen, onOpen, onClose } = useDisclosure()
 
   return (
@@ -22,10 +22,10 @@ export function PopupImage({ src, alt, boxSize }: Props) {
         alt={alt}
         objectFit={'cover'}
         borderRadius={'md'}
-        boxSize={boxSize || 'sm'}
         loading={'lazy'}
         onClick={onOpen}
         cursor={'pointer'}
+        {...imageProps}
       />
       <Modal isOpen={isOpen} onClose={onClose} size={'6xl'}>
         <ModalOverlay>

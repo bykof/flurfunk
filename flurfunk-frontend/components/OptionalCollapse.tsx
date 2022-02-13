@@ -1,5 +1,5 @@
 import React from 'react'
-import { Center, Collapse, Icon, useBoolean } from '@chakra-ui/react'
+import { Button, Center, Collapse, Icon, useBoolean } from '@chakra-ui/react'
 import { FaChevronDown, FaChevronUp } from 'react-icons/fa'
 
 type Props = {
@@ -23,11 +23,13 @@ export function OptionalCollapse({ children, contentRef, threshold }: Props) {
           {children}
         </Collapse>
         <Center>
-          <Icon
-            cursor={'pointer'}
+          <Button
             onClick={toggleContentExpanded}
-            as={isContentExpanded ? FaChevronUp : FaChevronDown}
-          />
+            size={'sm'}
+            _focus={{ boxShadow: 'none' }}
+          >
+            <Icon as={isContentExpanded ? FaChevronUp : FaChevronDown} />
+          </Button>
         </Center>
       </React.Fragment>
     )
