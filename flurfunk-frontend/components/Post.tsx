@@ -31,12 +31,14 @@ import { CreateComment } from './CreateComment'
 
 type Props = {
   itemsPost: ItemsPost
-  itemsCommentCreated?: (itemsComment: ItemsComment) => void
+  onItemsCommentCreated?: (itemsComment: ItemsComment) => void
+  onItemsCommentDeleted?: (itemsComment: ItemsComment) => void
 }
 
 export function Post({
   itemsPost,
-  itemsCommentCreated,
+  onItemsCommentCreated,
+  onItemsCommentDeleted,
 }: Props): React.ReactElement {
   const contentRef = React.useRef<HTMLDivElement>(null)
   const user = React.useMemo<Users>(
@@ -114,7 +116,8 @@ export function Post({
                     return (
                       <PopupImage
                         key={file.id}
-                        boxSize={'full'}
+                        width={'full'}
+                        height={64}
                         src={ASSET_URL(file.directus_files_id!.id!)}
                       />
                     )
@@ -158,11 +161,15 @@ export function Post({
         <Divider />
         <Stack>
           {comments.map((comment) => (
-            <PostComment key={comment.id} comment={comment} />
+            <PostComment
+              key={comment.id}
+              itemsComment={comment}
+              onItemsCommentDeleted={onItemsCommentDeleted}
+            />
           ))}
           <CreateComment
             itemsPost={itemsPost}
-            itemsCommentCreated={itemsCommentCreated}
+            onItemsCommentCreated={onItemsCommentCreated}
           />
         </Stack>
       </Stack>

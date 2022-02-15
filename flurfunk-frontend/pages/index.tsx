@@ -47,7 +47,8 @@ export default function Home() {
             <Post
               key={itemsPost.id}
               itemsPost={itemsPost}
-              itemsCommentCreated={() => refetchItemsPosts()}
+              onItemsCommentCreated={() => refetchItemsPosts()}
+              onItemsCommentDeleted={() => refetchItemsPosts()}
             />
           ))
         )}

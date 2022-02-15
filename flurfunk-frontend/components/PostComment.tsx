@@ -16,21 +16,35 @@ import ReactMarkdown from 'react-markdown'
 import remarkGfm from 'remark-gfm'
 import { MARKDOWN_COMPONENTS } from '../constants'
 import { AuthContext } from '../contexts/AuthContext'
+import { useMutation } from 'react-query'
+import { deleteComment } from '../core/apiClient/flurfunkApiClient'
+import { AxiosError } from 'axios'
 
 type Props = {
-  comment: ItemsComment
+  itemsComment: ItemsComment
+  onItemsCommentDeleted?: (itemsComment: ItemsComment) => void
 }
 
-export function PostComment({ comment }: Props) {
+export function PostComment({ itemsComment, onItemsCommentDeleted }: Props) {
   const { currentUser } = React.useContext(AuthContext)
   const user = React.useMemo<Users>(
-    () => comment.user_created as Users,
-    [comment]
+    () => itemsComment.user_created as Users,
+    [itemsComment]
+  )
+  const deleteCommentMutation = useMutation<void, AxiosError, ItemsComment>(
+    'deleteComment',
+    deleteComment
   )
   const [isDeleteOpen, setIsDeleteOpen] = React.useState(false)
   const onCloseDelete = () => setIsDeleteOpen(false)
-  const openDelete = () => setIsDeleteOpen(true)
+  const onOpenDelete = () => setIsDeleteOpen(true)
   const cancelDeleteRef = React.useRef<HTMLButtonElement>(null)
+  const onDeleteItemsComment = React.useCallback(async () => {
+    await deleteCommentMutation.mutateAsync(itemsComment)
+    if (onItemsCommentDeleted) {
+      onItemsCommentDeleted(itemsComment)
+    }
+  }, [deleteCommentMutation, itemsComment, onItemsCommentDeleted])
 
   return (
     <>
@@ -50,14 +64,14 @@ export function PostComment({ comment }: Props) {
             {user.first_name} {user.last_name}
           </Text>
           {currentUser?.id === user.id && (
-            <CloseButton size={'sm'} onClick={openDelete} />
+            <CloseButton size={'sm'} onClick={onOpenDelete} />
           )}
         </Box>
         <ReactMarkdown
           remarkPlugins={[remarkGfm]}
           components={MARKDOWN_COMPONENTS}
         >
-          {comment.content || ''}
+          {itemsComment.content || ''}
         </ReactMarkdown>
       </Box>
       <AlertDialog
@@ -75,7 +89,7 @@ export function PostComment({ comment }: Props) {
               <Button ref={cancelDeleteRef} onClick={onCloseDelete}>
                 Cancel
               </Button>
-              <Button colorScheme="red" onClick={onCloseDelete} ml={3}>
+              <Button colorScheme="red" onClick={onDeleteItemsComment} ml={3}>
                 Delete
               </Button>
             </AlertDialogFooter>

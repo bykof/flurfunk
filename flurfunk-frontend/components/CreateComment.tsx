@@ -7,7 +7,7 @@ import { useForm, Controller } from 'react-hook-form'
 
 type Props = {
   itemsPost: ItemsPost
-  itemsCommentCreated?: (itemsComment: ItemsComment) => void
+  onItemsCommentCreated?: (itemsComment: ItemsComment) => void
 }
 
 type Form = {
@@ -15,7 +15,7 @@ type Form = {
   post: number
 }
 
-export function CreateComment({ itemsPost, itemsCommentCreated }: Props) {
+export function CreateComment({ itemsPost, onItemsCommentCreated }: Props) {
   const createCommentsMutation = useMutation<
     Array<ItemsComment>,
     AxiosError,
@@ -29,8 +29,8 @@ export function CreateComment({ itemsPost, itemsCommentCreated }: Props) {
     try {
       const createdComment = await createCommentsMutation.mutateAsync([data])
 
-      if (itemsCommentCreated) {
-        itemsCommentCreated(createdComment[0])
+      if (onItemsCommentCreated) {
+        onItemsCommentCreated(createdComment[0])
       }
 
       reset(defaultFormValues)

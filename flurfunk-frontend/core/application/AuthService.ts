@@ -22,6 +22,10 @@ export default class AuthService {
     return `${NEXT_PUBLIC_FLURFUNK_SERVER_URL}/auth/login/${provider}?redirect=${NEXT_PUBLIC_FLURFUNK_FRONTEND_URL}`
   }
 
+  deleteAccessToken() {
+    this.cookies.remove(this.ACCESS_TOKEN_KEY)
+  }
+
   setAccessToken(accessToken: string, expiresMs: number) {
     const expires = addMilliseconds(new Date(), expiresMs)
     this.cookies.set(this.ACCESS_TOKEN_KEY, accessToken, {

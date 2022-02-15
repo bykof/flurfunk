@@ -161,3 +161,8 @@ export async function createComments(
   }
   return response.data.data
 }
+
+export async function deleteComment(itemsComment: ItemsComment): Promise<void> {
+  const itemsCommentApi = ItemsCommentApiFactory(defaultConfiguration())
+  await itemsCommentApi.deleteSingleItemsComment(itemsComment.id!)
+}
