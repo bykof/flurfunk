@@ -7,8 +7,8 @@
     "start": "next start",
     "lint": "next lint",
     "generate-client": "openapi-generator-cli generate -g typescript-axios -i http://localhost:8055/server/specs/oas?access_token=<insert-access-token-here> -o core/clients/flurfunk-backend",
-    "build-docker": "docker build . -t bykof/flurfunk-frontend:$(git describe --tags --abbrev=0)",
-    "push-docker": "docker push bykof/flurfunk-frontend:$(git describe --tags --abbrev=0)"
+    "docker-build": "docker build . -t bykof/flurfunk-frontend:$(git describe --tags --abbrev=0)",
+    "docker-push": "docker push bykof/flurfunk-frontend:$(git describe --tags --abbrev=0)"
   },
   "dependencies": {
     "@chakra-ui/react": "^1.8.3",
