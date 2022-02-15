@@ -35,31 +35,33 @@ export default function Home() {
   }
 
   return (
-    <UsersContextProvider>
-      <Container maxW={'6xl'} pb={12}>
-        <Box display={'flex'} py={4} justifyContent={'center'}>
-          <Text fontSize={'4xl'}>Flurfunk</Text>
-        </Box>
-        <CreatePost py={4} onPostCreated={() => refetchItemsPosts()} />
-        <Divider my={8} />
-        <Stack spacing={8}>
-          {infiniteItemsPosts?.pages?.map((itemsPosts: Array<ItemsPost>) =>
-            itemsPosts?.map((itemsPost) => (
-              <Post key={itemsPost.id} itemsPost={itemsPost} />
-            ))
-          )}
-        </Stack>
-        <Box display={'flex'} justifyContent={'center'} my={4}>
-          <Button
-            disabled={isFetchingNextPageItemsPosts || !hasNextPageItemsPosts}
-            isLoading={isFetchingNextPageItemsPosts}
-            onClick={() => fetchNextPageItemsPosts()}
-          >
-            {hasNextPageItemsPosts && `Load More`}
-            {!hasNextPageItemsPosts && `Nothing more to load`}
-          </Button>
-        </Box>
-      </Container>
-    </UsersContextProvider>
+    <Container maxW={'6xl'} pb={12}>
+      <Box display={'flex'} py={4} justifyContent={'center'}>
+        <Text fontSize={'4xl'}>Flurfunk</Text>
+      </Box>
+      <CreatePost py={4} onPostCreated={() => refetchItemsPosts()} />
+      <Divider my={8} />
+      <Stack spacing={8}>
+        {infiniteItemsPosts?.pages?.map((itemsPosts: Array<ItemsPost>) =>
+          itemsPosts?.map((itemsPost) => (
+            <Post
+              key={itemsPost.id}
+              itemsPost={itemsPost}
+              itemsCommentCreated={() => refetchItemsPosts()}
+            />
+          ))
+        )}
+      </Stack>
+      <Box display={'flex'} justifyContent={'center'} my={4}>
+        <Button
+          disabled={isFetchingNextPageItemsPosts || !hasNextPageItemsPosts}
+          isLoading={isFetchingNextPageItemsPosts}
+          onClick={() => fetchNextPageItemsPosts()}
+        >
+          {hasNextPageItemsPosts && `Load More`}
+          {!hasNextPageItemsPosts && `Nothing more to load`}
+        </Button>
+      </Box>
+    </Container>
   )
 }

@@ -16,27 +16,33 @@ import {
   ItemsPost,
   ItemsPostFiles,
   Users,
+  ItemsComment,
 } from '../core/clients/flurfunk-backend'
 import {
   ASSET_URL,
   DEFAULT_DATETIME_FORMAT,
   MARKDOWN_COMPONENTS,
 } from '../constants'
-import { UsersContext } from '../contexts/UsersContext'
 import { PopupImage } from './PopupImage'
 import { FiPaperclip } from 'react-icons/fi'
 import { OptionalCollapse } from './OptionalCollapse'
+import { PostComment } from './PostComment'
+import { CreateComment } from './CreateComment'
 
 type Props = {
   itemsPost: ItemsPost
+  itemsCommentCreated?: (itemsComment: ItemsComment) => void
 }
 
-export function Post({ itemsPost }: Props): React.ReactElement {
+export function Post({
+  itemsPost,
+  itemsCommentCreated,
+}: Props): React.ReactElement {
   const contentRef = React.useRef<HTMLDivElement>(null)
-  const { users } = React.useContext(UsersContext)
-  const user = React.useMemo<Users | undefined>(() => {
-    return users?.find((user) => user.id === itemsPost.user_created)
-  }, [itemsPost.user_created, users])
+  const user = React.useMemo<Users>(
+    () => itemsPost.user_created as Users,
+    [itemsPost.user_created]
+  )
   const imageFiles = React.useMemo<Array<number | ItemsPostFiles>>(
     () =>
       itemsPost.files!.filter(
@@ -56,6 +62,14 @@ export function Post({ itemsPost }: Props): React.ReactElement {
           !file!.directus_files_id?.type?.startsWith('image')
       ),
     [itemsPost.files]
+  )
+
+  const comments = React.useMemo<Array<ItemsComment>>(
+    () =>
+      itemsPost.comments
+        ?.filter((comment) => typeof comment !== 'number')
+        .map((comment) => comment as ItemsComment) || [],
+    [itemsPost.comments]
   )
 
   return (
@@ -142,6 +156,15 @@ export function Post({ itemsPost }: Props): React.ReactElement {
           </Box>
         </OptionalCollapse>
         <Divider />
+        <Stack>
+          {comments.map((comment) => (
+            <PostComment key={comment.id} comment={comment} />
+          ))}
+          <CreateComment
+            itemsPost={itemsPost}
+            itemsCommentCreated={itemsCommentCreated}
+          />
+        </Stack>
       </Stack>
     </Box>
   )

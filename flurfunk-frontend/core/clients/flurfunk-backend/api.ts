@@ -1890,10 +1890,10 @@ export interface InlineResponse2001 {
 export interface InlineResponse20010 {
     /**
      * 
-     * @type {Activity}
+     * @type {Array<Activity>}
      * @memberof InlineResponse20010
      */
-    'data'?: Activity;
+    'data'?: Array<Activity>;
 }
 /**
  * 
@@ -1903,10 +1903,10 @@ export interface InlineResponse20010 {
 export interface InlineResponse20011 {
     /**
      * 
-     * @type {Array<Collections>}
+     * @type {Activity}
      * @memberof InlineResponse20011
      */
-    'data'?: Array<Collections>;
+    'data'?: Activity;
 }
 /**
  * 
@@ -1916,10 +1916,10 @@ export interface InlineResponse20011 {
 export interface InlineResponse20012 {
     /**
      * 
-     * @type {Collections}
+     * @type {Array<Collections>}
      * @memberof InlineResponse20012
      */
-    'data'?: Collections;
+    'data'?: Array<Collections>;
 }
 /**
  * 
@@ -1929,10 +1929,10 @@ export interface InlineResponse20012 {
 export interface InlineResponse20013 {
     /**
      * 
-     * @type {Array<Fields>}
+     * @type {Collections}
      * @memberof InlineResponse20013
      */
-    'data'?: Array<Fields>;
+    'data'?: Collections;
 }
 /**
  * 
@@ -1942,10 +1942,10 @@ export interface InlineResponse20013 {
 export interface InlineResponse20014 {
     /**
      * 
-     * @type {Fields}
+     * @type {Array<Fields>}
      * @memberof InlineResponse20014
      */
-    'data'?: Fields;
+    'data'?: Array<Fields>;
 }
 /**
  * 
@@ -1955,10 +1955,10 @@ export interface InlineResponse20014 {
 export interface InlineResponse20015 {
     /**
      * 
-     * @type {Array<Files>}
+     * @type {Fields}
      * @memberof InlineResponse20015
      */
-    'data'?: Array<Files>;
+    'data'?: Fields;
 }
 /**
  * 
@@ -1968,10 +1968,10 @@ export interface InlineResponse20015 {
 export interface InlineResponse20016 {
     /**
      * 
-     * @type {Files}
+     * @type {Array<Files>}
      * @memberof InlineResponse20016
      */
-    'data'?: Files;
+    'data'?: Array<Files>;
 }
 /**
  * 
@@ -1981,10 +1981,10 @@ export interface InlineResponse20016 {
 export interface InlineResponse20017 {
     /**
      * 
-     * @type {Array<Folders>}
+     * @type {Files}
      * @memberof InlineResponse20017
      */
-    'data'?: Array<Folders>;
+    'data'?: Files;
 }
 /**
  * 
@@ -1994,10 +1994,10 @@ export interface InlineResponse20017 {
 export interface InlineResponse20018 {
     /**
      * 
-     * @type {Folders}
+     * @type {Array<Folders>}
      * @memberof InlineResponse20018
      */
-    'data'?: Folders;
+    'data'?: Array<Folders>;
 }
 /**
  * 
@@ -2007,10 +2007,10 @@ export interface InlineResponse20018 {
 export interface InlineResponse20019 {
     /**
      * 
-     * @type {Array<Permissions>}
+     * @type {Folders}
      * @memberof InlineResponse20019
      */
-    'data'?: Array<Permissions>;
+    'data'?: Folders;
 }
 /**
  * 
@@ -2064,10 +2064,10 @@ export interface InlineResponse2002 {
 export interface InlineResponse20020 {
     /**
      * 
-     * @type {Permissions}
+     * @type {Array<Permissions>}
      * @memberof InlineResponse20020
      */
-    'data'?: Permissions;
+    'data'?: Array<Permissions>;
 }
 /**
  * 
@@ -2077,10 +2077,10 @@ export interface InlineResponse20020 {
 export interface InlineResponse20021 {
     /**
      * 
-     * @type {Array<Presets>}
+     * @type {Permissions}
      * @memberof InlineResponse20021
      */
-    'data'?: Array<Presets>;
+    'data'?: Permissions;
 }
 /**
  * 
@@ -2090,10 +2090,10 @@ export interface InlineResponse20021 {
 export interface InlineResponse20022 {
     /**
      * 
-     * @type {Presets}
+     * @type {Array<Presets>}
      * @memberof InlineResponse20022
      */
-    'data'?: Presets;
+    'data'?: Array<Presets>;
 }
 /**
  * 
@@ -2103,10 +2103,10 @@ export interface InlineResponse20022 {
 export interface InlineResponse20023 {
     /**
      * 
-     * @type {Array<Relations>}
+     * @type {Presets}
      * @memberof InlineResponse20023
      */
-    'data'?: Array<Relations>;
+    'data'?: Presets;
 }
 /**
  * 
@@ -2116,10 +2116,10 @@ export interface InlineResponse20023 {
 export interface InlineResponse20024 {
     /**
      * 
-     * @type {Relations}
+     * @type {Array<Relations>}
      * @memberof InlineResponse20024
      */
-    'data'?: Relations;
+    'data'?: Array<Relations>;
 }
 /**
  * 
@@ -2129,10 +2129,10 @@ export interface InlineResponse20024 {
 export interface InlineResponse20025 {
     /**
      * 
-     * @type {Array<Revisions>}
+     * @type {Relations}
      * @memberof InlineResponse20025
      */
-    'data'?: Array<Revisions>;
+    'data'?: Relations;
 }
 /**
  * 
@@ -2142,10 +2142,10 @@ export interface InlineResponse20025 {
 export interface InlineResponse20026 {
     /**
      * 
-     * @type {Revisions}
+     * @type {Array<Revisions>}
      * @memberof InlineResponse20026
      */
-    'data'?: Revisions;
+    'data'?: Array<Revisions>;
 }
 /**
  * 
@@ -2155,10 +2155,10 @@ export interface InlineResponse20026 {
 export interface InlineResponse20027 {
     /**
      * 
-     * @type {Array<Roles>}
+     * @type {Revisions}
      * @memberof InlineResponse20027
      */
-    'data'?: Array<Roles>;
+    'data'?: Revisions;
 }
 /**
  * 
@@ -2168,10 +2168,10 @@ export interface InlineResponse20027 {
 export interface InlineResponse20028 {
     /**
      * 
-     * @type {Roles}
+     * @type {Array<Roles>}
      * @memberof InlineResponse20028
      */
-    'data'?: Roles;
+    'data'?: Array<Roles>;
 }
 /**
  * 
@@ -2181,10 +2181,10 @@ export interface InlineResponse20028 {
 export interface InlineResponse20029 {
     /**
      * 
-     * @type {Settings}
+     * @type {Roles}
      * @memberof InlineResponse20029
      */
-    'data'?: Settings;
+    'data'?: Roles;
 }
 /**
  * 
@@ -2213,10 +2213,10 @@ export interface InlineResponse2003 {
 export interface InlineResponse20030 {
     /**
      * 
-     * @type {Array<Users>}
+     * @type {Settings}
      * @memberof InlineResponse20030
      */
-    'data'?: Array<Users>;
+    'data'?: Settings;
 }
 /**
  * 
@@ -2226,10 +2226,10 @@ export interface InlineResponse20030 {
 export interface InlineResponse20031 {
     /**
      * 
-     * @type {Users}
+     * @type {Array<Users>}
      * @memberof InlineResponse20031
      */
-    'data'?: Users;
+    'data'?: Array<Users>;
 }
 /**
  * 
@@ -2239,8 +2239,21 @@ export interface InlineResponse20031 {
 export interface InlineResponse20032 {
     /**
      * 
-     * @type {Webhooks}
+     * @type {Users}
      * @memberof InlineResponse20032
+     */
+    'data'?: Users;
+}
+/**
+ * 
+ * @export
+ * @interface InlineResponse20033
+ */
+export interface InlineResponse20033 {
+    /**
+     * 
+     * @type {Webhooks}
+     * @memberof InlineResponse20033
      */
     'data'?: Webhooks;
 }
@@ -2304,10 +2317,10 @@ export interface InlineResponse2006 {
 export interface InlineResponse2007 {
     /**
      * 
-     * @type {Array<ItemsPost>}
+     * @type {Array<ItemsComment>}
      * @memberof InlineResponse2007
      */
-    'data'?: Array<ItemsPost>;
+    'data'?: Array<ItemsComment>;
 }
 /**
  * 
@@ -2317,10 +2330,10 @@ export interface InlineResponse2007 {
 export interface InlineResponse2008 {
     /**
      * 
-     * @type {Array<ItemsPostFiles>}
+     * @type {Array<ItemsPost>}
      * @memberof InlineResponse2008
      */
-    'data'?: Array<ItemsPostFiles>;
+    'data'?: Array<ItemsPost>;
 }
 /**
  * 
@@ -2330,10 +2343,10 @@ export interface InlineResponse2008 {
 export interface InlineResponse2009 {
     /**
      * 
-     * @type {Array<Activity>}
+     * @type {Array<ItemsPostFiles>}
      * @memberof InlineResponse2009
      */
-    'data'?: Array<Activity>;
+    'data'?: Array<ItemsPostFiles>;
 }
 /**
  * 
@@ -2395,6 +2408,55 @@ export interface InlineResponse404Error {
 /**
  * 
  * @export
+ * @interface ItemsComment
+ */
+export interface ItemsComment {
+    /**
+     * 
+     * @type {number}
+     * @memberof ItemsComment
+     */
+    'id'?: number;
+    /**
+     * 
+     * @type {string | Users}
+     * @memberof ItemsComment
+     */
+    'user_created'?: string | Users | null;
+    /**
+     * 
+     * @type {string}
+     * @memberof ItemsComment
+     */
+    'date_created'?: string | null;
+    /**
+     * 
+     * @type {string | Users}
+     * @memberof ItemsComment
+     */
+    'user_updated'?: string | Users | null;
+    /**
+     * 
+     * @type {string}
+     * @memberof ItemsComment
+     */
+    'date_updated'?: string | null;
+    /**
+     * 
+     * @type {number | ItemsPost}
+     * @memberof ItemsComment
+     */
+    'post'?: number | ItemsPost | null;
+    /**
+     * 
+     * @type {string}
+     * @memberof ItemsComment
+     */
+    'content'?: string | null;
+}
+/**
+ * 
+ * @export
  * @interface ItemsPost
  */
 export interface ItemsPost {
@@ -2434,6 +2496,12 @@ export interface ItemsPost {
      * @memberof ItemsPost
      */
     'content'?: string | null;
+    /**
+     * 
+     * @type {Array<number | ItemsComment>}
+     * @memberof ItemsPost
+     */
+    'comments'?: Array<number | ItemsComment>;
     /**
      * 
      * @type {Array<number | ItemsPostFiles>}
@@ -3583,7 +3651,7 @@ export const ActivityApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createComment(meta?: string, inlineObject5?: InlineObject5, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20010>> {
+        async createComment(meta?: string, inlineObject5?: InlineObject5, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20011>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createComment(meta, inlineObject5, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -3611,7 +3679,7 @@ export const ActivityApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getActivities(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
+        async getActivities(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20010>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getActivities(fields, limit, meta, offset, sort, filter, search, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -3624,7 +3692,7 @@ export const ActivityApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getActivity(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20010>> {
+        async getActivity(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20011>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getActivity(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -3637,7 +3705,7 @@ export const ActivityApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateComment(id: number, meta?: string, inlineObject6?: InlineObject6, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20010>> {
+        async updateComment(id: number, meta?: string, inlineObject6?: InlineObject6, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20011>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateComment(id, meta, inlineObject6, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -3659,7 +3727,7 @@ export const ActivityApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createComment(meta?: string, inlineObject5?: InlineObject5, options?: any): AxiosPromise<InlineResponse20010> {
+        createComment(meta?: string, inlineObject5?: InlineObject5, options?: any): AxiosPromise<InlineResponse20011> {
             return localVarFp.createComment(meta, inlineObject5, options).then((request) => request(axios, basePath));
         },
         /**
@@ -3685,7 +3753,7 @@ export const ActivityApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getActivities(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2009> {
+        getActivities(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse20010> {
             return localVarFp.getActivities(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
         },
         /**
@@ -3697,7 +3765,7 @@ export const ActivityApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getActivity(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20010> {
+        getActivity(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20011> {
             return localVarFp.getActivity(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -3709,7 +3777,7 @@ export const ActivityApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateComment(id: number, meta?: string, inlineObject6?: InlineObject6, options?: any): AxiosPromise<InlineResponse20010> {
+        updateComment(id: number, meta?: string, inlineObject6?: InlineObject6, options?: any): AxiosPromise<InlineResponse20011> {
             return localVarFp.updateComment(id, meta, inlineObject6, options).then((request) => request(axios, basePath));
         },
     };
@@ -4651,7 +4719,7 @@ export const CollectionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createCollection(meta?: string, inlineObject7?: InlineObject7, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20012>> {
+        async createCollection(meta?: string, inlineObject7?: InlineObject7, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20013>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createCollection(meta, inlineObject7, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -4674,7 +4742,7 @@ export const CollectionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getCollection(id: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20012>> {
+        async getCollection(id: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20013>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getCollection(id, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -4686,7 +4754,7 @@ export const CollectionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getCollections(offset?: number, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20011>> {
+        async getCollections(offset?: number, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20012>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getCollections(offset, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -4699,7 +4767,7 @@ export const CollectionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateCollection(id: string, meta?: string, inlineObject8?: InlineObject8, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20012>> {
+        async updateCollection(id: string, meta?: string, inlineObject8?: InlineObject8, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20013>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateCollection(id, meta, inlineObject8, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -4721,7 +4789,7 @@ export const CollectionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createCollection(meta?: string, inlineObject7?: InlineObject7, options?: any): AxiosPromise<InlineResponse20012> {
+        createCollection(meta?: string, inlineObject7?: InlineObject7, options?: any): AxiosPromise<InlineResponse20013> {
             return localVarFp.createCollection(meta, inlineObject7, options).then((request) => request(axios, basePath));
         },
         /**
@@ -4742,7 +4810,7 @@ export const CollectionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getCollection(id: string, meta?: string, options?: any): AxiosPromise<InlineResponse20012> {
+        getCollection(id: string, meta?: string, options?: any): AxiosPromise<InlineResponse20013> {
             return localVarFp.getCollection(id, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -4753,7 +4821,7 @@ export const CollectionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getCollections(offset?: number, meta?: string, options?: any): AxiosPromise<InlineResponse20011> {
+        getCollections(offset?: number, meta?: string, options?: any): AxiosPromise<InlineResponse20012> {
             return localVarFp.getCollections(offset, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -4765,7 +4833,7 @@ export const CollectionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateCollection(id: string, meta?: string, inlineObject8?: InlineObject8, options?: any): AxiosPromise<InlineResponse20012> {
+        updateCollection(id: string, meta?: string, inlineObject8?: InlineObject8, options?: any): AxiosPromise<InlineResponse20013> {
             return localVarFp.updateCollection(id, meta, inlineObject8, options).then((request) => request(axios, basePath));
         },
     };
@@ -5382,7 +5450,7 @@ export const FieldsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createField(collection: string, inlineObject9?: InlineObject9, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20014>> {
+        async createField(collection: string, inlineObject9?: InlineObject9, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20015>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createField(collection, inlineObject9, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5406,7 +5474,7 @@ export const FieldsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getCollectionField(collection: string, id: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20014>> {
+        async getCollectionField(collection: string, id: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20015>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getCollectionField(collection, id, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5418,7 +5486,7 @@ export const FieldsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getCollectionFields(collection: string, sort?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20013>> {
+        async getCollectionFields(collection: string, sort?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20014>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getCollectionFields(collection, sort, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5430,7 +5498,7 @@ export const FieldsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getFields(limit?: number, sort?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20013>> {
+        async getFields(limit?: number, sort?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20014>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getFields(limit, sort, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5443,7 +5511,7 @@ export const FieldsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateField(collection: string, id: string, inlineObject10?: InlineObject10, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20014>> {
+        async updateField(collection: string, id: string, inlineObject10?: InlineObject10, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20015>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateField(collection, id, inlineObject10, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5465,7 +5533,7 @@ export const FieldsApiFactory = function (configuration?: Configuration, basePat
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createField(collection: string, inlineObject9?: InlineObject9, options?: any): AxiosPromise<InlineResponse20014> {
+        createField(collection: string, inlineObject9?: InlineObject9, options?: any): AxiosPromise<InlineResponse20015> {
             return localVarFp.createField(collection, inlineObject9, options).then((request) => request(axios, basePath));
         },
         /**
@@ -5487,7 +5555,7 @@ export const FieldsApiFactory = function (configuration?: Configuration, basePat
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getCollectionField(collection: string, id: string, options?: any): AxiosPromise<InlineResponse20014> {
+        getCollectionField(collection: string, id: string, options?: any): AxiosPromise<InlineResponse20015> {
             return localVarFp.getCollectionField(collection, id, options).then((request) => request(axios, basePath));
         },
         /**
@@ -5498,7 +5566,7 @@ export const FieldsApiFactory = function (configuration?: Configuration, basePat
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getCollectionFields(collection: string, sort?: Array<string>, options?: any): AxiosPromise<InlineResponse20013> {
+        getCollectionFields(collection: string, sort?: Array<string>, options?: any): AxiosPromise<InlineResponse20014> {
             return localVarFp.getCollectionFields(collection, sort, options).then((request) => request(axios, basePath));
         },
         /**
@@ -5509,7 +5577,7 @@ export const FieldsApiFactory = function (configuration?: Configuration, basePat
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getFields(limit?: number, sort?: Array<string>, options?: any): AxiosPromise<InlineResponse20013> {
+        getFields(limit?: number, sort?: Array<string>, options?: any): AxiosPromise<InlineResponse20014> {
             return localVarFp.getFields(limit, sort, options).then((request) => request(axios, basePath));
         },
         /**
@@ -5521,7 +5589,7 @@ export const FieldsApiFactory = function (configuration?: Configuration, basePat
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateField(collection: string, id: string, inlineObject10?: InlineObject10, options?: any): AxiosPromise<InlineResponse20014> {
+        updateField(collection: string, id: string, inlineObject10?: InlineObject10, options?: any): AxiosPromise<InlineResponse20015> {
             return localVarFp.updateField(collection, id, inlineObject10, options).then((request) => request(axios, basePath));
         },
     };
@@ -5895,7 +5963,7 @@ export const FilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createFile(inlineObject11?: InlineObject11, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20016>> {
+        async createFile(inlineObject11?: InlineObject11, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20017>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createFile(inlineObject11, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5919,7 +5987,7 @@ export const FilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getFile(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20016>> {
+        async getFile(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20017>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getFile(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5936,7 +6004,7 @@ export const FilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getFiles(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20015>> {
+        async getFiles(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20016>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getFiles(fields, limit, offset, sort, filter, search, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5955,7 +6023,7 @@ export const FilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateFile(id: string, file: any, fields?: Array<string>, meta?: string, title?: string, filenameDownload?: string, description?: string, folder?: string | Folders, tags?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20016>> {
+        async updateFile(id: string, file: any, fields?: Array<string>, meta?: string, title?: string, filenameDownload?: string, description?: string, folder?: string | Folders, tags?: Array<string>, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20017>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateFile(id, file, fields, meta, title, filenameDownload, description, folder, tags, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -5976,7 +6044,7 @@ export const FilesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createFile(inlineObject11?: InlineObject11, options?: any): AxiosPromise<InlineResponse20016> {
+        createFile(inlineObject11?: InlineObject11, options?: any): AxiosPromise<InlineResponse20017> {
             return localVarFp.createFile(inlineObject11, options).then((request) => request(axios, basePath));
         },
         /**
@@ -5998,7 +6066,7 @@ export const FilesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getFile(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20016> {
+        getFile(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20017> {
             return localVarFp.getFile(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -6014,7 +6082,7 @@ export const FilesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getFiles(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20015> {
+        getFiles(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20016> {
             return localVarFp.getFiles(fields, limit, offset, sort, filter, search, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -6032,7 +6100,7 @@ export const FilesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateFile(id: string, file: any, fields?: Array<string>, meta?: string, title?: string, filenameDownload?: string, description?: string, folder?: string | Folders, tags?: Array<string>, options?: any): AxiosPromise<InlineResponse20016> {
+        updateFile(id: string, file: any, fields?: Array<string>, meta?: string, title?: string, filenameDownload?: string, description?: string, folder?: string | Folders, tags?: Array<string>, options?: any): AxiosPromise<InlineResponse20017> {
             return localVarFp.updateFile(id, file, fields, meta, title, filenameDownload, description, folder, tags, options).then((request) => request(axios, basePath));
         },
     };
@@ -6383,7 +6451,7 @@ export const FoldersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createFolder(fields?: Array<string>, meta?: string, inlineObject13?: InlineObject13, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20018>> {
+        async createFolder(fields?: Array<string>, meta?: string, inlineObject13?: InlineObject13, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20019>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createFolder(fields, meta, inlineObject13, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -6407,7 +6475,7 @@ export const FoldersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getFolder(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20018>> {
+        async getFolder(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20019>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getFolder(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -6424,7 +6492,7 @@ export const FoldersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getFolders(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20017>> {
+        async getFolders(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20018>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getFolders(fields, limit, offset, sort, filter, search, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -6438,7 +6506,7 @@ export const FoldersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateFolder(id: string, fields?: Array<string>, meta?: string, inlineObject14?: InlineObject14, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20018>> {
+        async updateFolder(id: string, fields?: Array<string>, meta?: string, inlineObject14?: InlineObject14, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20019>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateFolder(id, fields, meta, inlineObject14, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -6461,7 +6529,7 @@ export const FoldersApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createFolder(fields?: Array<string>, meta?: string, inlineObject13?: InlineObject13, options?: any): AxiosPromise<InlineResponse20018> {
+        createFolder(fields?: Array<string>, meta?: string, inlineObject13?: InlineObject13, options?: any): AxiosPromise<InlineResponse20019> {
             return localVarFp.createFolder(fields, meta, inlineObject13, options).then((request) => request(axios, basePath));
         },
         /**
@@ -6483,7 +6551,7 @@ export const FoldersApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getFolder(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20018> {
+        getFolder(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20019> {
             return localVarFp.getFolder(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -6499,7 +6567,7 @@ export const FoldersApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getFolders(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20017> {
+        getFolders(fields?: Array<string>, limit?: number, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20018> {
             return localVarFp.getFolders(fields, limit, offset, sort, filter, search, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -6512,7 +6580,7 @@ export const FoldersApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateFolder(id: string, fields?: Array<string>, meta?: string, inlineObject14?: InlineObject14, options?: any): AxiosPromise<InlineResponse20018> {
+        updateFolder(id: string, fields?: Array<string>, meta?: string, inlineObject14?: InlineObject14, options?: any): AxiosPromise<InlineResponse20019> {
             return localVarFp.updateFolder(id, fields, meta, inlineObject14, options).then((request) => request(axios, basePath));
         },
     };
@@ -6607,6 +6675,45 @@ export class FoldersApi extends BaseAPI {
 export const ItemsApiAxiosParamCreator = function (configuration?: Configuration) {
     return {
         /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        createItemsComment: async (meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            const localVarPath = `/items/Comment`;
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'POST', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            localVarHeaderParameter['Content-Type'] = 'application/json';
+
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+            localVarRequestOptions.data = serializeDataIfNeeded(arrayItemsCommentItemsComment, localVarRequestOptions, configuration)
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
          * Create a new Post item.
          * @summary Create an Item
          * @param {string} [meta] What metadata to return in the response.
@@ -6685,6 +6792,40 @@ export const ItemsApiAxiosParamCreator = function (configuration?: Configuration
             };
         },
         /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        deleteSingleItemsComment: async (id: number | string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('deleteSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'DELETE', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
          * Delete an existing Post item.
          * @summary Delete an Item
          * @param {number | string} id Index of the item.
@@ -6740,6 +6881,74 @@ export const ItemsApiAxiosParamCreator = function (configuration?: Configuration
             const localVarRequestOptions = { method: 'DELETE', ...baseOptions, ...options};
             const localVarHeaderParameter = {} as any;
             const localVarQueryParameter = {} as any;
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readItemsComment: async (fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            const localVarPath = `/items/Comment`;
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            // authentication Auth required
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (limit !== undefined) {
+                localVarQueryParameter['limit'] = limit;
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+            if (offset !== undefined) {
+                localVarQueryParameter['offset'] = offset;
+            }
+
+            if (sort) {
+                localVarQueryParameter['sort'] = sort.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (filter) {
+                localVarQueryParameter['filter'] = filter;
+            }
+
+            if (search !== undefined) {
+                localVarQueryParameter['search'] = search;
+            }
 
 
     
@@ -6889,6 +7098,50 @@ export const ItemsApiAxiosParamCreator = function (configuration?: Configuration
             };
         },
         /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readSingleItemsComment: async (id: number | string, fields?: Array<string>, meta?: string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('readSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
          * Retrieve a single Post item by unique identifier.
          * @summary Retrieve an Item
          * @param {number | string} id Index of the item.
@@ -6970,6 +7223,54 @@ export const ItemsApiAxiosParamCreator = function (configuration?: Configuration
             setSearchParams(localVarUrlObj, localVarQueryParameter);
             let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
             localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        updateSingleItemsComment: async (id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('updateSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'PATCH', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            localVarHeaderParameter['Content-Type'] = 'application/json';
+
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+            localVarRequestOptions.data = serializeDataIfNeeded(itemsComment, localVarRequestOptions, configuration)
 
             return {
                 url: toPathString(localVarUrlObj),
@@ -7083,6 +7384,18 @@ export const ItemsApiFp = function(configuration?: Configuration) {
     const localVarAxiosParamCreator = ItemsApiAxiosParamCreator(configuration)
     return {
         /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsComment(meta, arrayItemsCommentItemsComment, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
          * Create a new Post item.
          * @summary Create an Item
          * @param {string} [meta] What metadata to return in the response.
@@ -7090,7 +7403,7 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsPost(meta, arrayItemsPostItemsPost, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7102,8 +7415,19 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsPostFiles(meta, arrayItemsPostFilesItemsPostFiles, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async deleteSingleItemsComment(id: number | string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<void>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.deleteSingleItemsComment(id, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
@@ -7129,6 +7453,23 @@ export const ItemsApiFp = function(configuration?: Configuration) {
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsComment(fields, limit, meta, offset, sort, filter, search, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
          * List the Post items.
          * @summary List Items
          * @param {Array<string>} [fields] Control what fields are being returned in the object.
@@ -7141,7 +7482,7 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsPost(fields, limit, meta, offset, sort, filter, search, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7158,8 +7499,21 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsPostFiles(fields, limit, meta, offset, sort, filter, search, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsComment(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
@@ -7171,7 +7525,7 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsPost(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7184,8 +7538,22 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsPostFiles(id, fields, meta, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsComment(id, fields, meta, itemsComment, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
         /**
@@ -7198,7 +7566,7 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsPost(id, fields, meta, itemsPost, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7212,7 +7580,7 @@ export const ItemsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsPostFiles(id, fields, meta, itemsPostFiles, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7227,6 +7595,17 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
     const localVarFp = ItemsApiFp(configuration)
     return {
         /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.createItemsComment(meta, arrayItemsCommentItemsComment, options).then((request) => request(axios, basePath));
+        },
+        /**
          * Create a new Post item.
          * @summary Create an Item
          * @param {string} [meta] What metadata to return in the response.
@@ -7234,7 +7613,7 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: any): AxiosPromise<InlineResponse2007> {
+        createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.createItemsPost(meta, arrayItemsPostItemsPost, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7245,8 +7624,18 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2008> {
+        createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.createItemsPostFiles(meta, arrayItemsPostFilesItemsPostFiles, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        deleteSingleItemsComment(id: number | string, options?: any): AxiosPromise<void> {
+            return localVarFp.deleteSingleItemsComment(id, options).then((request) => request(axios, basePath));
         },
         /**
          * Delete an existing Post item.
@@ -7269,6 +7658,22 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
             return localVarFp.deleteSingleItemsPostFiles(id, options).then((request) => request(axios, basePath));
         },
         /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.readItemsComment(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
+        },
+        /**
          * List the Post items.
          * @summary List Items
          * @param {Array<string>} [fields] Control what fields are being returned in the object.
@@ -7281,7 +7686,7 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2007> {
+        readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.readItemsPost(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7297,8 +7702,20 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2008> {
+        readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.readItemsPostFiles(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.readSingleItemsComment(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
          * Retrieve a single Post item by unique identifier.
@@ -7309,7 +7726,7 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2007> {
+        readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.readSingleItemsPost(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7321,8 +7738,21 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2008> {
+        readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.readSingleItemsPostFiles(id, fields, meta, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.updateSingleItemsComment(id, fields, meta, itemsComment, options).then((request) => request(axios, basePath));
         },
         /**
          * Update an existing Post item.
@@ -7334,7 +7764,7 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: any): AxiosPromise<InlineResponse2007> {
+        updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.updateSingleItemsPost(id, fields, meta, itemsPost, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7347,7 +7777,7 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2008> {
+        updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.updateSingleItemsPostFiles(id, fields, meta, itemsPostFiles, options).then((request) => request(axios, basePath));
         },
     };
@@ -7360,6 +7790,19 @@ export const ItemsApiFactory = function (configuration?: Configuration, basePath
  * @extends {BaseAPI}
  */
 export class ItemsApi extends BaseAPI {
+    /**
+     * Create a new Comment item.
+     * @summary Create an Item
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsApi
+     */
+    public createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: AxiosRequestConfig) {
+        return ItemsApiFp(this.configuration).createItemsComment(meta, arrayItemsCommentItemsComment, options).then((request) => request(this.axios, this.basePath));
+    }
+
     /**
      * Create a new Post item.
      * @summary Create an Item
@@ -7387,6 +7830,18 @@ export class ItemsApi extends BaseAPI {
     }
 
     /**
+     * Delete an existing Comment item.
+     * @summary Delete an Item
+     * @param {number | string} id Index of the item.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsApi
+     */
+    public deleteSingleItemsComment(id: number | string, options?: AxiosRequestConfig) {
+        return ItemsApiFp(this.configuration).deleteSingleItemsComment(id, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
      * Delete an existing Post item.
      * @summary Delete an Item
      * @param {number | string} id Index of the item.
@@ -7408,6 +7863,24 @@ export class ItemsApi extends BaseAPI {
      */
     public deleteSingleItemsPostFiles(id: number | string, options?: AxiosRequestConfig) {
         return ItemsApiFp(this.configuration).deleteSingleItemsPostFiles(id, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * List the Comment items.
+     * @summary List Items
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {number} [limit] A limit on the number of objects that are returned.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {number} [offset] How many items to skip when fetching data.
+     * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+     * @param {Array<string>} [filter] Select items in collection by given conditions.
+     * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsApi
+     */
+    public readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig) {
+        return ItemsApiFp(this.configuration).readItemsComment(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(this.axios, this.basePath));
     }
 
     /**
@@ -7447,6 +7920,20 @@ export class ItemsApi extends BaseAPI {
     }
 
     /**
+     * Retrieve a single Comment item by unique identifier.
+     * @summary Retrieve an Item
+     * @param {number | string} id Index of the item.
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsApi
+     */
+    public readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig) {
+        return ItemsApiFp(this.configuration).readSingleItemsComment(id, fields, meta, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
      * Retrieve a single Post item by unique identifier.
      * @summary Retrieve an Item
      * @param {number | string} id Index of the item.
@@ -7472,6 +7959,21 @@ export class ItemsApi extends BaseAPI {
      */
     public readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig) {
         return ItemsApiFp(this.configuration).readSingleItemsPostFiles(id, fields, meta, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * Update an existing Comment item.
+     * @summary Update an Item
+     * @param {number | string} id Index of the item.
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {ItemsComment} [itemsComment] 
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsApi
+     */
+    public updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: AxiosRequestConfig) {
+        return ItemsApiFp(this.configuration).updateSingleItemsComment(id, fields, meta, itemsComment, options).then((request) => request(this.axios, this.basePath));
     }
 
     /**
@@ -7502,6 +8004,478 @@ export class ItemsApi extends BaseAPI {
      */
     public updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: AxiosRequestConfig) {
         return ItemsApiFp(this.configuration).updateSingleItemsPostFiles(id, fields, meta, itemsPostFiles, options).then((request) => request(this.axios, this.basePath));
+    }
+}
+
+
+/**
+ * ItemsCommentApi - axios parameter creator
+ * @export
+ */
+export const ItemsCommentApiAxiosParamCreator = function (configuration?: Configuration) {
+    return {
+        /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        createItemsComment: async (meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            const localVarPath = `/items/Comment`;
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'POST', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            localVarHeaderParameter['Content-Type'] = 'application/json';
+
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+            localVarRequestOptions.data = serializeDataIfNeeded(arrayItemsCommentItemsComment, localVarRequestOptions, configuration)
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        deleteSingleItemsComment: async (id: number | string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('deleteSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'DELETE', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readItemsComment: async (fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            const localVarPath = `/items/Comment`;
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            // authentication Auth required
+            await setApiKeyToObject(localVarHeaderParameter, "Authorization", configuration)
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (limit !== undefined) {
+                localVarQueryParameter['limit'] = limit;
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+            if (offset !== undefined) {
+                localVarQueryParameter['offset'] = offset;
+            }
+
+            if (sort) {
+                localVarQueryParameter['sort'] = sort.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (filter) {
+                localVarQueryParameter['filter'] = filter;
+            }
+
+            if (search !== undefined) {
+                localVarQueryParameter['search'] = search;
+            }
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readSingleItemsComment: async (id: number | string, fields?: Array<string>, meta?: string, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('readSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'GET', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        updateSingleItemsComment: async (id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options: AxiosRequestConfig = {}): Promise<RequestArgs> => {
+            // verify required parameter 'id' is not null or undefined
+            assertParamExists('updateSingleItemsComment', 'id', id)
+            const localVarPath = `/items/Comment/{id}`
+                .replace(`{${"id"}}`, encodeURIComponent(String(id)));
+            // use dummy base URL string because the URL constructor only accepts absolute URLs.
+            const localVarUrlObj = new URL(localVarPath, DUMMY_BASE_URL);
+            let baseOptions;
+            if (configuration) {
+                baseOptions = configuration.baseOptions;
+            }
+
+            const localVarRequestOptions = { method: 'PATCH', ...baseOptions, ...options};
+            const localVarHeaderParameter = {} as any;
+            const localVarQueryParameter = {} as any;
+
+            if (fields) {
+                localVarQueryParameter['fields'] = fields.join(COLLECTION_FORMATS.csv);
+            }
+
+            if (meta !== undefined) {
+                localVarQueryParameter['meta'] = meta;
+            }
+
+
+    
+            localVarHeaderParameter['Content-Type'] = 'application/json';
+
+            setSearchParams(localVarUrlObj, localVarQueryParameter);
+            let headersFromBaseOptions = baseOptions && baseOptions.headers ? baseOptions.headers : {};
+            localVarRequestOptions.headers = {...localVarHeaderParameter, ...headersFromBaseOptions, ...options.headers};
+            localVarRequestOptions.data = serializeDataIfNeeded(itemsComment, localVarRequestOptions, configuration)
+
+            return {
+                url: toPathString(localVarUrlObj),
+                options: localVarRequestOptions,
+            };
+        },
+    }
+};
+
+/**
+ * ItemsCommentApi - functional programming interface
+ * @export
+ */
+export const ItemsCommentApiFp = function(configuration?: Configuration) {
+    const localVarAxiosParamCreator = ItemsCommentApiAxiosParamCreator(configuration)
+    return {
+        /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsComment(meta, arrayItemsCommentItemsComment, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async deleteSingleItemsComment(id: number | string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<void>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.deleteSingleItemsComment(id, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsComment(fields, limit, meta, offset, sort, filter, search, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsComment(id, fields, meta, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        async updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+            const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsComment(id, fields, meta, itemsComment, options);
+            return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
+        },
+    }
+};
+
+/**
+ * ItemsCommentApi - factory interface
+ * @export
+ */
+export const ItemsCommentApiFactory = function (configuration?: Configuration, basePath?: string, axios?: AxiosInstance) {
+    const localVarFp = ItemsCommentApiFp(configuration)
+    return {
+        /**
+         * Create a new Comment item.
+         * @summary Create an Item
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.createItemsComment(meta, arrayItemsCommentItemsComment, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Delete an existing Comment item.
+         * @summary Delete an Item
+         * @param {number | string} id Index of the item.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        deleteSingleItemsComment(id: number | string, options?: any): AxiosPromise<void> {
+            return localVarFp.deleteSingleItemsComment(id, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * List the Comment items.
+         * @summary List Items
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {number} [limit] A limit on the number of objects that are returned.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {number} [offset] How many items to skip when fetching data.
+         * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+         * @param {Array<string>} [filter] Select items in collection by given conditions.
+         * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.readItemsComment(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Retrieve a single Comment item by unique identifier.
+         * @summary Retrieve an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.readSingleItemsComment(id, fields, meta, options).then((request) => request(axios, basePath));
+        },
+        /**
+         * Update an existing Comment item.
+         * @summary Update an Item
+         * @param {number | string} id Index of the item.
+         * @param {Array<string>} [fields] Control what fields are being returned in the object.
+         * @param {string} [meta] What metadata to return in the response.
+         * @param {ItemsComment} [itemsComment] 
+         * @param {*} [options] Override http request option.
+         * @throws {RequiredError}
+         */
+        updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: any): AxiosPromise<InlineResponse2007> {
+            return localVarFp.updateSingleItemsComment(id, fields, meta, itemsComment, options).then((request) => request(axios, basePath));
+        },
+    };
+};
+
+/**
+ * ItemsCommentApi - object-oriented interface
+ * @export
+ * @class ItemsCommentApi
+ * @extends {BaseAPI}
+ */
+export class ItemsCommentApi extends BaseAPI {
+    /**
+     * Create a new Comment item.
+     * @summary Create an Item
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {Array<ItemsComment> | ItemsComment} [arrayItemsCommentItemsComment] 
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsCommentApi
+     */
+    public createItemsComment(meta?: string, arrayItemsCommentItemsComment?: Array<ItemsComment> | ItemsComment, options?: AxiosRequestConfig) {
+        return ItemsCommentApiFp(this.configuration).createItemsComment(meta, arrayItemsCommentItemsComment, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * Delete an existing Comment item.
+     * @summary Delete an Item
+     * @param {number | string} id Index of the item.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsCommentApi
+     */
+    public deleteSingleItemsComment(id: number | string, options?: AxiosRequestConfig) {
+        return ItemsCommentApiFp(this.configuration).deleteSingleItemsComment(id, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * List the Comment items.
+     * @summary List Items
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {number} [limit] A limit on the number of objects that are returned.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {number} [offset] How many items to skip when fetching data.
+     * @param {Array<string>} [sort] How to sort the returned items. &#x60;sort&#x60; is a CSV of fields used to sort the fetched items. Sorting defaults to ascending (ASC) order but a minus sign (&#x60; - &#x60;) can be used to reverse this to descending (DESC) order. Fields are prioritized by their order in the CSV. You can also use a &#x60; ? &#x60; to sort randomly. 
+     * @param {Array<string>} [filter] Select items in collection by given conditions.
+     * @param {string} [search] Filter by items that contain the given search query in one of their fields.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsCommentApi
+     */
+    public readItemsComment(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig) {
+        return ItemsCommentApiFp(this.configuration).readItemsComment(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * Retrieve a single Comment item by unique identifier.
+     * @summary Retrieve an Item
+     * @param {number | string} id Index of the item.
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsCommentApi
+     */
+    public readSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig) {
+        return ItemsCommentApiFp(this.configuration).readSingleItemsComment(id, fields, meta, options).then((request) => request(this.axios, this.basePath));
+    }
+
+    /**
+     * Update an existing Comment item.
+     * @summary Update an Item
+     * @param {number | string} id Index of the item.
+     * @param {Array<string>} [fields] Control what fields are being returned in the object.
+     * @param {string} [meta] What metadata to return in the response.
+     * @param {ItemsComment} [itemsComment] 
+     * @param {*} [options] Override http request option.
+     * @throws {RequiredError}
+     * @memberof ItemsCommentApi
+     */
+    public updateSingleItemsComment(id: number | string, fields?: Array<string>, meta?: string, itemsComment?: ItemsComment, options?: AxiosRequestConfig) {
+        return ItemsCommentApiFp(this.configuration).updateSingleItemsComment(id, fields, meta, itemsComment, options).then((request) => request(this.axios, this.basePath));
     }
 }
 
@@ -7763,7 +8737,7 @@ export const ItemsPostApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsPost(meta, arrayItemsPostItemsPost, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7791,7 +8765,7 @@ export const ItemsPostApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsPost(fields, limit, meta, offset, sort, filter, search, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7804,7 +8778,7 @@ export const ItemsPostApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsPost(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7818,7 +8792,7 @@ export const ItemsPostApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2007>> {
+        async updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsPost(id, fields, meta, itemsPost, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -7840,7 +8814,7 @@ export const ItemsPostApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: any): AxiosPromise<InlineResponse2007> {
+        createItemsPost(meta?: string, arrayItemsPostItemsPost?: Array<ItemsPost> | ItemsPost, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.createItemsPost(meta, arrayItemsPostItemsPost, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7866,7 +8840,7 @@ export const ItemsPostApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2007> {
+        readItemsPost(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.readItemsPost(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7878,7 +8852,7 @@ export const ItemsPostApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2007> {
+        readSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.readSingleItemsPost(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -7891,7 +8865,7 @@ export const ItemsPostApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: any): AxiosPromise<InlineResponse2007> {
+        updateSingleItemsPost(id: number | string, fields?: Array<string>, meta?: string, itemsPost?: ItemsPost, options?: any): AxiosPromise<InlineResponse2008> {
             return localVarFp.updateSingleItemsPost(id, fields, meta, itemsPost, options).then((request) => request(axios, basePath));
         },
     };
@@ -8235,7 +9209,7 @@ export const ItemsPostFilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createItemsPostFiles(meta, arrayItemsPostFilesItemsPostFiles, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8263,7 +9237,7 @@ export const ItemsPostFilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readItemsPostFiles(fields, limit, meta, offset, sort, filter, search, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8276,7 +9250,7 @@ export const ItemsPostFilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.readSingleItemsPostFiles(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8290,7 +9264,7 @@ export const ItemsPostFilesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2008>> {
+        async updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse2009>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateSingleItemsPostFiles(id, fields, meta, itemsPostFiles, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8312,7 +9286,7 @@ export const ItemsPostFilesApiFactory = function (configuration?: Configuration,
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2008> {
+        createItemsPostFiles(meta?: string, arrayItemsPostFilesItemsPostFiles?: Array<ItemsPostFiles> | ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.createItemsPostFiles(meta, arrayItemsPostFilesItemsPostFiles, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8338,7 +9312,7 @@ export const ItemsPostFilesApiFactory = function (configuration?: Configuration,
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2008> {
+        readItemsPostFiles(fields?: Array<string>, limit?: number, meta?: string, offset?: number, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.readItemsPostFiles(fields, limit, meta, offset, sort, filter, search, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8350,7 +9324,7 @@ export const ItemsPostFilesApiFactory = function (configuration?: Configuration,
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2008> {
+        readSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.readSingleItemsPostFiles(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8363,7 +9337,7 @@ export const ItemsPostFilesApiFactory = function (configuration?: Configuration,
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2008> {
+        updateSingleItemsPostFiles(id: number | string, fields?: Array<string>, meta?: string, itemsPostFiles?: ItemsPostFiles, options?: any): AxiosPromise<InlineResponse2009> {
             return localVarFp.updateSingleItemsPostFiles(id, fields, meta, itemsPostFiles, options).then((request) => request(axios, basePath));
         },
     };
@@ -8734,7 +9708,7 @@ export const PermissionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createPermission(meta?: string, inlineObject15?: InlineObject15, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20020>> {
+        async createPermission(meta?: string, inlineObject15?: InlineObject15, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20021>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createPermission(meta, inlineObject15, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8755,7 +9729,7 @@ export const PermissionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getMyPermissions(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20019>> {
+        async getMyPermissions(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20020>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getMyPermissions(options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8768,7 +9742,7 @@ export const PermissionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getPermission(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20020>> {
+        async getPermission(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20021>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getPermission(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8786,7 +9760,7 @@ export const PermissionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getPermissions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20019>> {
+        async getPermissions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20020>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getPermissions(fields, limit, offset, meta, sort, filter, search, page, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8799,7 +9773,7 @@ export const PermissionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updatePermission(id: number, meta?: string, inlineObject16?: InlineObject16, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20020>> {
+        async updatePermission(id: number, meta?: string, inlineObject16?: InlineObject16, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20021>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updatePermission(id, meta, inlineObject16, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -8821,7 +9795,7 @@ export const PermissionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createPermission(meta?: string, inlineObject15?: InlineObject15, options?: any): AxiosPromise<InlineResponse20020> {
+        createPermission(meta?: string, inlineObject15?: InlineObject15, options?: any): AxiosPromise<InlineResponse20021> {
             return localVarFp.createPermission(meta, inlineObject15, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8840,7 +9814,7 @@ export const PermissionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getMyPermissions(options?: any): AxiosPromise<InlineResponse20019> {
+        getMyPermissions(options?: any): AxiosPromise<InlineResponse20020> {
             return localVarFp.getMyPermissions(options).then((request) => request(axios, basePath));
         },
         /**
@@ -8852,7 +9826,7 @@ export const PermissionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getPermission(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20020> {
+        getPermission(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20021> {
             return localVarFp.getPermission(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8869,7 +9843,7 @@ export const PermissionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getPermissions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20019> {
+        getPermissions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20020> {
             return localVarFp.getPermissions(fields, limit, offset, meta, sort, filter, search, page, options).then((request) => request(axios, basePath));
         },
         /**
@@ -8881,7 +9855,7 @@ export const PermissionsApiFactory = function (configuration?: Configuration, ba
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updatePermission(id: number, meta?: string, inlineObject16?: InlineObject16, options?: any): AxiosPromise<InlineResponse20020> {
+        updatePermission(id: number, meta?: string, inlineObject16?: InlineObject16, options?: any): AxiosPromise<InlineResponse20021> {
             return localVarFp.updatePermission(id, meta, inlineObject16, options).then((request) => request(axios, basePath));
         },
     };
@@ -9253,7 +10227,7 @@ export const PresetsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createPreset(fields?: Array<string>, meta?: string, inlineObject17?: InlineObject17, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20022>> {
+        async createPreset(fields?: Array<string>, meta?: string, inlineObject17?: InlineObject17, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20023>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createPreset(fields, meta, inlineObject17, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9277,7 +10251,7 @@ export const PresetsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getPreset(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20022>> {
+        async getPreset(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20023>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getPreset(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9295,7 +10269,7 @@ export const PresetsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getPresets(fields?: Array<string>, limit?: number, offset?: number, page?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20021>> {
+        async getPresets(fields?: Array<string>, limit?: number, offset?: number, page?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20022>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getPresets(fields, limit, offset, page, sort, filter, search, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9309,7 +10283,7 @@ export const PresetsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updatePreset(id: number, fields?: Array<string>, meta?: string, inlineObject18?: InlineObject18, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20022>> {
+        async updatePreset(id: number, fields?: Array<string>, meta?: string, inlineObject18?: InlineObject18, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20023>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updatePreset(id, fields, meta, inlineObject18, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9332,7 +10306,7 @@ export const PresetsApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createPreset(fields?: Array<string>, meta?: string, inlineObject17?: InlineObject17, options?: any): AxiosPromise<InlineResponse20022> {
+        createPreset(fields?: Array<string>, meta?: string, inlineObject17?: InlineObject17, options?: any): AxiosPromise<InlineResponse20023> {
             return localVarFp.createPreset(fields, meta, inlineObject17, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9354,7 +10328,7 @@ export const PresetsApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getPreset(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20022> {
+        getPreset(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20023> {
             return localVarFp.getPreset(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9371,7 +10345,7 @@ export const PresetsApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getPresets(fields?: Array<string>, limit?: number, offset?: number, page?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20021> {
+        getPresets(fields?: Array<string>, limit?: number, offset?: number, page?: number, sort?: Array<string>, filter?: Array<string>, search?: string, meta?: string, options?: any): AxiosPromise<InlineResponse20022> {
             return localVarFp.getPresets(fields, limit, offset, page, sort, filter, search, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9384,7 +10358,7 @@ export const PresetsApiFactory = function (configuration?: Configuration, basePa
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updatePreset(id: number, fields?: Array<string>, meta?: string, inlineObject18?: InlineObject18, options?: any): AxiosPromise<InlineResponse20022> {
+        updatePreset(id: number, fields?: Array<string>, meta?: string, inlineObject18?: InlineObject18, options?: any): AxiosPromise<InlineResponse20023> {
             return localVarFp.updatePreset(id, fields, meta, inlineObject18, options).then((request) => request(axios, basePath));
         },
     };
@@ -9738,7 +10712,7 @@ export const RelationsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createRelation(fields?: Array<string>, meta?: string, inlineObject19?: InlineObject19, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20024>> {
+        async createRelation(fields?: Array<string>, meta?: string, inlineObject19?: InlineObject19, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20025>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createRelation(fields, meta, inlineObject19, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9762,7 +10736,7 @@ export const RelationsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRelation(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20024>> {
+        async getRelation(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20025>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRelation(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9780,7 +10754,7 @@ export const RelationsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRelations(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20023>> {
+        async getRelations(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20024>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRelations(fields, limit, offset, meta, sort, filter, search, page, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9794,7 +10768,7 @@ export const RelationsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateRelation(id: number, fields?: Array<string>, meta?: string, inlineObject20?: InlineObject20, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20024>> {
+        async updateRelation(id: number, fields?: Array<string>, meta?: string, inlineObject20?: InlineObject20, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20025>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateRelation(id, fields, meta, inlineObject20, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -9817,7 +10791,7 @@ export const RelationsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createRelation(fields?: Array<string>, meta?: string, inlineObject19?: InlineObject19, options?: any): AxiosPromise<InlineResponse20024> {
+        createRelation(fields?: Array<string>, meta?: string, inlineObject19?: InlineObject19, options?: any): AxiosPromise<InlineResponse20025> {
             return localVarFp.createRelation(fields, meta, inlineObject19, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9839,7 +10813,7 @@ export const RelationsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRelation(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20024> {
+        getRelation(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20025> {
             return localVarFp.getRelation(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9856,7 +10830,7 @@ export const RelationsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRelations(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20023> {
+        getRelations(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20024> {
             return localVarFp.getRelations(fields, limit, offset, meta, sort, filter, search, page, options).then((request) => request(axios, basePath));
         },
         /**
@@ -9869,7 +10843,7 @@ export const RelationsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateRelation(id: number, fields?: Array<string>, meta?: string, inlineObject20?: InlineObject20, options?: any): AxiosPromise<InlineResponse20024> {
+        updateRelation(id: number, fields?: Array<string>, meta?: string, inlineObject20?: InlineObject20, options?: any): AxiosPromise<InlineResponse20025> {
             return localVarFp.updateRelation(id, fields, meta, inlineObject20, options).then((request) => request(axios, basePath));
         },
     };
@@ -10097,7 +11071,7 @@ export const RevisionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRevision(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20026>> {
+        async getRevision(id: number, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20027>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRevision(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10115,7 +11089,7 @@ export const RevisionsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRevisions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20025>> {
+        async getRevisions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20026>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRevisions(fields, limit, offset, meta, sort, filter, search, page, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10138,7 +11112,7 @@ export const RevisionsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRevision(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20026> {
+        getRevision(id: number, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20027> {
             return localVarFp.getRevision(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -10155,7 +11129,7 @@ export const RevisionsApiFactory = function (configuration?: Configuration, base
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRevisions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20025> {
+        getRevisions(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20026> {
             return localVarFp.getRevisions(fields, limit, offset, meta, sort, filter, search, page, options).then((request) => request(axios, basePath));
         },
     };
@@ -10468,7 +11442,7 @@ export const RolesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createRole(fields?: Array<string>, meta?: string, inlineObject21?: InlineObject21, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
+        async createRole(fields?: Array<string>, meta?: string, inlineObject21?: InlineObject21, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createRole(fields, meta, inlineObject21, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10492,7 +11466,7 @@ export const RolesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRole(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
+        async getRole(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRole(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10510,7 +11484,7 @@ export const RolesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getRoles(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20027>> {
+        async getRoles(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getRoles(fields, limit, offset, meta, sort, filter, search, page, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10524,7 +11498,7 @@ export const RolesApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateRole(id: string, fields?: Array<string>, meta?: string, inlineObject22?: InlineObject22, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
+        async updateRole(id: string, fields?: Array<string>, meta?: string, inlineObject22?: InlineObject22, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateRole(id, fields, meta, inlineObject22, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10547,7 +11521,7 @@ export const RolesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createRole(fields?: Array<string>, meta?: string, inlineObject21?: InlineObject21, options?: any): AxiosPromise<InlineResponse20028> {
+        createRole(fields?: Array<string>, meta?: string, inlineObject21?: InlineObject21, options?: any): AxiosPromise<InlineResponse20029> {
             return localVarFp.createRole(fields, meta, inlineObject21, options).then((request) => request(axios, basePath));
         },
         /**
@@ -10569,7 +11543,7 @@ export const RolesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRole(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20028> {
+        getRole(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20029> {
             return localVarFp.getRole(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -10586,7 +11560,7 @@ export const RolesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getRoles(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20027> {
+        getRoles(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, page?: number, options?: any): AxiosPromise<InlineResponse20028> {
             return localVarFp.getRoles(fields, limit, offset, meta, sort, filter, search, page, options).then((request) => request(axios, basePath));
         },
         /**
@@ -10599,7 +11573,7 @@ export const RolesApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateRole(id: string, fields?: Array<string>, meta?: string, inlineObject22?: InlineObject22, options?: any): AxiosPromise<InlineResponse20028> {
+        updateRole(id: string, fields?: Array<string>, meta?: string, inlineObject22?: InlineObject22, options?: any): AxiosPromise<InlineResponse20029> {
             return localVarFp.updateRole(id, fields, meta, inlineObject22, options).then((request) => request(axios, basePath));
         },
     };
@@ -10966,7 +11940,7 @@ export const SettingsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getSettings(limit?: number, offset?: number, meta?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
+        async getSettings(limit?: number, offset?: number, meta?: string, page?: number, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20030>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getSettings(limit, offset, meta, page, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -10977,7 +11951,7 @@ export const SettingsApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateSetting(body?: object, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
+        async updateSetting(body?: object, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20030>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateSetting(body, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11001,7 +11975,7 @@ export const SettingsApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getSettings(limit?: number, offset?: number, meta?: string, page?: number, options?: any): AxiosPromise<InlineResponse20029> {
+        getSettings(limit?: number, offset?: number, meta?: string, page?: number, options?: any): AxiosPromise<InlineResponse20030> {
             return localVarFp.getSettings(limit, offset, meta, page, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11011,7 +11985,7 @@ export const SettingsApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateSetting(body?: object, options?: any): AxiosPromise<InlineResponse20029> {
+        updateSetting(body?: object, options?: any): AxiosPromise<InlineResponse20030> {
             return localVarFp.updateSetting(body, options).then((request) => request(axios, basePath));
         },
     };
@@ -11540,7 +12514,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async acceptInvite(inlineObject24: InlineObject24, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async acceptInvite(inlineObject24: InlineObject24, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.acceptInvite(inlineObject24, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11552,7 +12526,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createUser(meta?: string, users?: Users, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async createUser(meta?: string, users?: Users, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createUser(meta, users, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11575,7 +12549,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getMe(fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async getMe(fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getMe(fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11588,7 +12562,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getUser(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async getUser(id: string, fields?: Array<string>, meta?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getUser(id, fields, meta, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11605,7 +12579,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getUsers(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20030>> {
+        async getUsers(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getUsers(fields, limit, offset, meta, sort, filter, search, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11616,7 +12590,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async invite(inlineObject23?: InlineObject23, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async invite(inlineObject23?: InlineObject23, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.invite(inlineObject23, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11657,7 +12631,7 @@ export const UsersApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateMe(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20031>> {
+        async updateMe(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateMe(options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -11692,7 +12666,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        acceptInvite(inlineObject24: InlineObject24, options?: any): AxiosPromise<InlineResponse20031> {
+        acceptInvite(inlineObject24: InlineObject24, options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.acceptInvite(inlineObject24, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11703,7 +12677,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createUser(meta?: string, users?: Users, options?: any): AxiosPromise<InlineResponse20031> {
+        createUser(meta?: string, users?: Users, options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.createUser(meta, users, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11724,7 +12698,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getMe(fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20031> {
+        getMe(fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.getMe(fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11736,7 +12710,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getUser(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20031> {
+        getUser(id: string, fields?: Array<string>, meta?: string, options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.getUser(id, fields, meta, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11752,7 +12726,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getUsers(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse20030> {
+        getUsers(fields?: Array<string>, limit?: number, offset?: number, meta?: string, sort?: Array<string>, filter?: Array<string>, search?: string, options?: any): AxiosPromise<InlineResponse20031> {
             return localVarFp.getUsers(fields, limit, offset, meta, sort, filter, search, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11762,7 +12736,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        invite(inlineObject23?: InlineObject23, options?: any): AxiosPromise<InlineResponse20031> {
+        invite(inlineObject23?: InlineObject23, options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.invite(inlineObject23, options).then((request) => request(axios, basePath));
         },
         /**
@@ -11799,7 +12773,7 @@ export const UsersApiFactory = function (configuration?: Configuration, basePath
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateMe(options?: any): AxiosPromise<InlineResponse20031> {
+        updateMe(options?: any): AxiosPromise<InlineResponse20032> {
             return localVarFp.updateMe(options).then((request) => request(axios, basePath));
         },
         /**
@@ -12376,7 +13350,7 @@ export const WebhooksApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async createWebhook(fields?: Array<string>, meta?: string, inlineObject26?: InlineObject26, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
+        async createWebhook(fields?: Array<string>, meta?: string, inlineObject26?: InlineObject26, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.createWebhook(fields, meta, inlineObject26, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -12398,7 +13372,7 @@ export const WebhooksApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getWebhook(id: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
+        async getWebhook(id: string, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20033>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getWebhook(id, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -12408,7 +13382,7 @@ export const WebhooksApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async getWebhooks(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20032>> {
+        async getWebhooks(options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20033>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.getWebhooks(options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -12422,7 +13396,7 @@ export const WebhooksApiFp = function(configuration?: Configuration) {
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        async updateWebhook(id: string, fields?: Array<string>, meta?: string, inlineObject27?: InlineObject27, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20028>> {
+        async updateWebhook(id: string, fields?: Array<string>, meta?: string, inlineObject27?: InlineObject27, options?: AxiosRequestConfig): Promise<(axios?: AxiosInstance, basePath?: string) => AxiosPromise<InlineResponse20029>> {
             const localVarAxiosArgs = await localVarAxiosParamCreator.updateWebhook(id, fields, meta, inlineObject27, options);
             return createRequestFunction(localVarAxiosArgs, globalAxios, BASE_PATH, configuration);
         },
@@ -12445,7 +13419,7 @@ export const WebhooksApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        createWebhook(fields?: Array<string>, meta?: string, inlineObject26?: InlineObject26, options?: any): AxiosPromise<InlineResponse20028> {
+        createWebhook(fields?: Array<string>, meta?: string, inlineObject26?: InlineObject26, options?: any): AxiosPromise<InlineResponse20029> {
             return localVarFp.createWebhook(fields, meta, inlineObject26, options).then((request) => request(axios, basePath));
         },
         /**
@@ -12465,7 +13439,7 @@ export const WebhooksApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getWebhook(id: string, options?: any): AxiosPromise<InlineResponse20032> {
+        getWebhook(id: string, options?: any): AxiosPromise<InlineResponse20033> {
             return localVarFp.getWebhook(id, options).then((request) => request(axios, basePath));
         },
         /**
@@ -12474,7 +13448,7 @@ export const WebhooksApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        getWebhooks(options?: any): AxiosPromise<InlineResponse20032> {
+        getWebhooks(options?: any): AxiosPromise<InlineResponse20033> {
             return localVarFp.getWebhooks(options).then((request) => request(axios, basePath));
         },
         /**
@@ -12487,7 +13461,7 @@ export const WebhooksApiFactory = function (configuration?: Configuration, baseP
          * @param {*} [options] Override http request option.
          * @throws {RequiredError}
          */
-        updateWebhook(id: string, fields?: Array<string>, meta?: string, inlineObject27?: InlineObject27, options?: any): AxiosPromise<InlineResponse20028> {
+        updateWebhook(id: string, fields?: Array<string>, meta?: string, inlineObject27?: InlineObject27, options?: any): AxiosPromise<InlineResponse20029> {
             return localVarFp.updateWebhook(id, fields, meta, inlineObject27, options).then((request) => request(axios, basePath));
         },
     };

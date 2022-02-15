@@ -7,6 +7,8 @@ import {
   Folders,
   FoldersApiFactory,
   InlineResponse2001Data,
+  ItemsComment,
+  ItemsCommentApiFactory,
   ItemsPost,
   ItemsPostApiFactory,
   Users,
@@ -54,7 +56,13 @@ export async function getPosts({
   const itemsPostApi = ItemsPostApiFactory(defaultConfiguration())
   const data = (
     await itemsPostApi.readItemsPost(
-      ['*', 'files.*.*'],
+      [
+        '*',
+        'files.*.*',
+        'comments.*',
+        'comments.user_created.*',
+        'user_created.*',
+      ],
       limit,
       undefined,
       offset,
@@ -136,6 +144,20 @@ export async function createPosts(
   const response = await itemsPostApi.createItemsPost(undefined, itemsPosts)
   if (!response.data.data) {
     throw Error('received no itemspost while creating')
+  }
+  return response.data.data
+}
+
+export async function createComments(
+  itemsComments: Array<ItemsComment>
+): Promise<Array<ItemsComment>> {
+  const itemsCommentApi = ItemsCommentApiFactory(defaultConfiguration())
+  const response = await itemsCommentApi.createItemsComment(
+    undefined,
+    itemsComments
+  )
+  if (!response.data.data) {
+    throw Error('received no itemscomments while creating')
   }
   return response.data.data
 }
