@@ -6,7 +6,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "db": "docker run -d --name flurfunk -e POSTGRES_PASSWORD=directus -e POSTGRES_USER=directus -p 5434:5432 postgres",
-    "start": "npx directus start"
+    "start": "npx directus start",
+    "snapshot": "npx directus schema snapshot --yes ./snapshot.yaml"
   },
   "keywords": [],
   "author": "",
