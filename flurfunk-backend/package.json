@@ -7,7 +7,9 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "db": "docker run -d --name flurfunk -e POSTGRES_PASSWORD=directus -e POSTGRES_USER=directus -p 5434:5432 postgres",
     "start": "npx directus start",
-    "snapshot": "npx directus schema snapshot --yes ./snapshot.yaml"
+    "snapshot": "npx directus schema snapshot --yes ./snapshot.yaml",
+    "docker-build": "docker build . -t bykof/flurfunk-backend:$(git describe --tags --abbrev=0)",
+    "docker-push": "docker push bykof/flurfunk-backend:$(git describe --tags --abbrev=0)"
   },
   "keywords": [],
   "author": "",
