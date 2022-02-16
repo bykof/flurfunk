@@ -16,6 +16,7 @@ import { Post } from '../components/Post'
 import { CreatePost } from '../components/CreatePost'
 import { FullPageCircularProgress } from '../components/FullPageCircularProgress'
 import { DefaultContainer } from '../containers/DefaultContainer'
+import { MotionBox } from '../components/MotionBox'
 
 export default function Home() {
   const {
@@ -45,17 +46,27 @@ export default function Home() {
   return (
     <DefaultContainer>
       <Container maxW={'6xl'} pb={12}>
-        <Box
+        <MotionBox
+          whileHover={{
+            scale: 0.8,
+            transition: { duration: 0.2 },
+          }}
+          whileTap={{
+            scale: 1.2,
+            transition: { type: 'spring', bounce: 1.2, duration: 0.2 },
+          }}
           display={'flex'}
           py={4}
           justifyContent={'center'}
           alignItems={'center'}
           flexDirection={'column'}
           gap={'2'}
+          cursor={'pointer'}
+          onClick={() => refetchItemsPosts()}
         >
           <Image src={'/logo.png'} alt={'Flurfunk logo'} boxSize={'20'} />
           <Text fontSize={'4xl'}>Flurfunk</Text>
-        </Box>
+        </MotionBox>
         <CreatePost py={4} onPostCreated={() => refetchItemsPosts()} />
         <Divider my={8} />
         <Stack spacing={8}>
