@@ -31,7 +31,7 @@ export const MARKDOWN_COMPONENTS: Components = {
   h4: ({ children }) => <Text fontSize={'3xl'}>{children}</Text>,
   h5: ({ children }) => <Text fontSize={'2xl'}>{children}</Text>,
   h6: ({ children }) => <Text fontSize={'xl'}>{children}</Text>,
-  p: ({ children }) => <Text textAlign={'justify'}>{children}</Text>,
+  p: ({ children }) => <Text>{children}</Text>,
   ul: ({ children }) => <UnorderedList>{children}</UnorderedList>,
   ol: ({ children }) => <OrderedList>{children}</OrderedList>,
   li: ({ children }) => <ListItem>{children}</ListItem>,
