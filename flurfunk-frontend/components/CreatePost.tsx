@@ -48,7 +48,7 @@ export function CreatePost({ onPostCreated, ...styleProps }: Props) {
 
     if (data.files.length > 0) {
       const files = await uploadFiles(data.files)
-      itemsPost.files = files.map((file) => ({ directus_files_id: file }))
+      itemsPost.files = files.map((file) => ({ directus_files_id: file.id }))
     }
 
     const createdItemsPost = await createPosts([itemsPost])
