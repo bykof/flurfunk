@@ -14,10 +14,13 @@
     "@chakra-ui/react": "^1.8.3",
     "@emotion/react": "^11",
     "@emotion/styled": "^11",
+    "@uiw/react-md-editor": "^3.9.4",
     "axios": "^0.26.0",
     "date-fns": "^2.28.0",
+    "draft-js": "^0.11.7",
     "framer-motion": "^6.2.6",
     "next": "12.0.10",
+    "next-remove-imports": "^1.0.6",
     "react": "17.0.2",
     "react-dom": "17.0.2",
     "react-hook-form": "^7.27.0",
@@ -28,6 +31,7 @@
     "universal-cookie": "^4.0.4"
   },
   "devDependencies": {
+    "@types/draft-js": "^0.11.9",
     "@types/node": "17.0.18",
     "@types/react": "17.0.39",
     "eslint": "8.9.0",

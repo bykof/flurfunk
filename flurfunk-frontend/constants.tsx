@@ -1,5 +1,6 @@
 import { Components } from 'react-markdown'
 import {
+  Divider,
   Link,
   ListItem,
   OrderedList,
@@ -37,6 +38,7 @@ export const MARKDOWN_COMPONENTS: Components = {
   li: ({ children }) => <ListItem>{children}</ListItem>,
   a: ({ children, ...props }) => <Link {...props}>{children}</Link>,
   img: ({ alt, src }) => <PopupImage src={src} alt={alt} />,
+  hr: () => <Divider />,
 }
 
 export const URLS = {
