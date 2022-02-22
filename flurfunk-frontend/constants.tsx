@@ -15,7 +15,7 @@ export const NEXT_PUBLIC_FLURFUNK_SERVER_URL =
 export const ASSET_URL = (id: string) => {
   // It's extensible by query parameters: https://docs.directus.io/reference/files/#custom-transformations
   const authService = new AuthService()
-  return `${NEXT_PUBLIC_FLURFUNK_SERVER_URL}/assets/${id}?access_token=${authService.accessToken}`
+  return `${NEXT_PUBLIC_FLURFUNK_SERVER_URL}/assets/${id}?access_token=${authService.accessToken}&key=default`
 }
 export const NEXT_PUBLIC_FLURFUNK_FRONTEND_URL =
   process.env.NEXT_PUBLIC_FLURFUNK_FRONTEND_URL || 'http://localhost:3000'
